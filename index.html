@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natsukashi Hotel</title>
+    <link rel="icon" href="images/Wc_96.png"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/eliyantosarage/font-awesome-pro@main/fontawesome-pro-6.5.1-web/css/all.min.css" rel="stylesheet">
+
+<!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet"> -->
+</head>
+<body>
+ <!----------------------------------------------First Page---------------------------------------------->
+ 
+<div class="container">
+    <header>
+        <div class="nav">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href=""> <!--<img src="images/WC.png" alt="">--->
+                    <span id="span-brand">NATSUKASHI</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Bookings </a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Our Chefs</a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Classic Novel Club</a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Upcoming Events</a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Manga Association</a>
+                      </li>
+                    
+                      <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Membership Program
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Classic Club</a>
+                          <a class="dropdown-item" href="#">Manga Club</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </li>
+
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Sign In</a>
+                      </li>
+                    </ul>
+                </div>
+                    <form class="form-inline my-2 my-lg-0">
+                        <button id="btn-book" class="btn my-2 my-sm-0" type="submit">BOOK A STAY</button>
+                  </form>
+              
+            </nav>
+        </div>
+    </header>
+</div>
+
+<main>
+    <div class="main-bod">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+           
+            <div class="carousel-inner">
+              <div class="carousel-item active c-item">
+                <img class="d-block w-100 c-img1" src="images/hot2.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item c-item">
+                <img class="d-block w-100 c-img2" src="images/libbb.jpg" alt="Third slide">
+              </div>
+              <div class="carousel-item c-item">
+                <img class="d-block w-100 c-img3" src="images/cos.jpg" alt="Second slide">
+              </div>
+            </div>
+           
+            <div id="search">
+                <img id="search-icon" src="images/icons8-search-32.png" alt="">
+                <p id="search-p">Search for Hotels, Anime Club, Mangas and more...</p>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        
+    </div>
+    <div class="main-foot">
+        <div class="divs-main">
+            <img src="images/icons8-loyalty-64.png" alt="">
+            <h4>Loyalty Program</h4>
+        </div>
+        <div class="divs">
+            <img src="images/star32.png" alt="">
+            <p>Exclusive Membership Rates and Offers</p>
+        </div>
+        <div class="divs">
+            <img src="images/dining-32.png" alt="">
+            <p>Special Offers on Waiting And Dining</p>
+        </div>
+        <div class="divs">
+            <img src="images/gift32.png" alt="">
+            <p>Earn and Redeem across other Brands</pp>
+        </div>
+        <div class="divs">
+            <img src="images/icons8-job-32.png" alt="">
+            <p>Become a Prime Member of our Family</p>
+        </div>
+    </div>
+</main>
+
+<!-----------------------------------------FIRST PAGE ENDS HERE------------------------------------------>
+
+<!-----------------------------------------SECOND PAGE BEGINS HERE--------------------------------------->
+
+<h2 class="card_h2">Popular Destinations</h2>
+<div class="containers">
+    <i id="left" class="fa-solid fa-angle-left"></i>    
+    <ul class="cards-items">
+        <li class="card">
+            <div class="img">
+                <img src="images/mumbai.jpeg" alt=""></div>
+            <span class="card_span">Mumbai</span>
+            <button class="card_btns">View Details</button>
+            
+        </li>
+        
+        <li class="card">
+            <div class="img">
+                <img  src="images/jaipur.avif" alt=""></div>
+            <span class="card_span">Jaipur</span>
+            <button class="card_btns">View Details</button>
+        </li>
+
+        <li class="card">
+            <div class="img">
+                 <img src="images/goa.avif" alt=""></div>
+            <span class="card_span">Goa</span>
+            <button class="card_btns">View Details</button>
+        </li>
+
+        <li class="card">
+            <div class="img">
+                 <img src="images/japan.avif" alt=""></div>
+            <span class="card_span">Japan</span>
+            <button class="card_btns">View Details</button>
+        </li>
+        <li class="card">
+            <div class="img">
+           <img src="images/nd.avif" alt=""></div>
+            <span class="card_span">Delhi</span> 
+            <button class="card_btns">View Details</button> 
+        </li>
+        <li class="card">
+            <div class="img">
+           <img src="images/kolkata.avif" alt=""></div>
+            <span class="card_span">Kolkata</span>
+            <button class="card_btns">View Details</button>
+        </li>
+
+        <li class="card">
+            <div class="img">
+           <img src="images/hy.avif" alt=""></div>
+            <span class="card_span">Hyderabad</span>
+            <button class="card_btns">View Details</button>
+        </li>
+
+        <li class="card">
+            <div class="img">
+           <img src="images/pune.avif" alt=""></div>
+            <span class="card_span">Pune</span>
+            <button class="card_btns">View Details</button>
+        </li>
+        
+    </ul>
+    <i id="right" class="fa-solid fa-angle-right"></i>  
+</div>
+
+<!-----------------------------------------THIRD PAGE BEGINS HERE--------------------------------------->
+
+<h2 class="card_h2">Explore Anime Community</h2>
+    <div class="tab-container">
+        <p class="tab-h6">Hey Otakus! Descend into our Anime Community by getting access to newly launched Mangas.
+        <br/>Get Personalised Goodies Mangas signed by Anime Directors, VIP pass for Anime premiers and much more... 
+        </p>
+         <div class="grid-container">
+            <div class="item">
+                <img src="images/manga2.avif" alt="" class="grid-image">
+            </div>
+            <div class="item">
+                <h4 class="grid-h4">Manga Blaze</h4>
+                <p class="grid-pg">We Weebs need our daily dose of newly launched favourite Mangas.
+                    At Natsukashi we bring all the passionate Otakus together with similar tastes. Our weebies
+                    have formed a highly influetial community taking over major fan clubs.
+                </p>
+                <span class="grid-span">View Details <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+            <div class="item">
+                <img src="images/ds.avif" alt="" class="grid-image">
+            </div>
+            <div class="item">
+                <h4 class="grid-h4">Comicon</h4>
+                <p class="grid-pg">Join us in the comicon having the most bang on cosplays.
+                    At Natsukashi the comicon fair is hosted internationally. You get access to the most stylish
+                    cosplays and get awarded for best dressed cosplayer.
+                </p>
+                <span class="grid-span">View Details <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+            <div class="item">
+                <h4 class="grid-h4">Personalised Fan Edition</h4>
+                <p class="grid-pg">
+                    Imagine meeting your favorite Animators and Manga Artist.A dream come true! 
+                    Get a chance to meet your favorite Artists and get Mangas with their autogragh.What more do we want.
+                     Join us on an exciting Fan Edition at Natsukashi.
+                </p>
+                <span class="grid-span">View Details <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+            <div class="item">
+                <img src="images/makoto.jpg " alt="" class="grid-image">
+            </div>
+            <div class="item">
+                <h4 class="grid-h4">Otaku Treasures</h4>
+                <p class="grid-pg">
+                    Exclusive goodies on the latest Mangas and Anime Launches in collaboration with Crunchyroll. The Otaku community certified
+                    goodies are sure to be treasured. Join us in our awesome collections and have a massive loot! 
+                    
+                </p>
+                <span class="grid-span">View Details <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+            <div class="item">
+                <img src="images/card.avif" alt="" class="grid-image">
+            </div>
+        </div> 
+    </div>
+
+
+
+<!-----------------------------------------FORTH PAGE BEGINS HERE--------------------------------------->
+
+<h2 class="oap">Offers and Promotions</h2>
+<div class="parent">
+<div class="divs-wrapper">
+    <div class="divy grid-container2">
+        <div><i class="fa-solid fa-circle-dot"></i></div>
+        <div class="items"><span id="span1" class="spany">Limited Period Escapes</span> </div>
+        <div class="items"><span class="spany">Membership Exclusive </span></div>
+        <div class="items"> <span class="spany">Suite Surprises</span></div>
+        <div class="items"> <span class="spany">Limited Offer</span></div>
+        <div class="items"> <span class="spany">Limited Offer</span></div>
+        <div class="items"> <span class="spany">Limited Offer</span></div>
+    </div>
+
+    <div class="grid-container3">
+        <div class="items2"><span class="spany2"></span></div>
+        <div class="items2"><span id="span2" class="spany2">LIMITED PERIOD ESCAPES</span></div>
+        <div class="items2"><span class="spany2">25% Savings* on stays at Hotels + <span class="spany2">Minimum 4% MoeCoins</span> </span></div>
+        <div class="items2"><span class="spany2">Valid til December 2024</span></div>
+        <button id="span-btn">View Details</button>
+    </div>
+
+    <div id="divs_id">
+        <img id="divs_im" src="images/hotl2.avif" alt="">
+    </div>
+</div>
+</div>
+
+
+<!-----------------------------------------FOOTER PAGE BEGINS HERE--------------------------------------->
+
+<div class="footer">
+    <div class="hr1"><hr/></div>
+
+    <div class="main-footer">
+        <div class="flex">
+            <p class="flex-para">Membership Programs</p>
+            <p class="flex-para">Upcoming Aniware</p>
+            <p class="flex-para">Loyalty Program</p>
+            <p class="flex-para">Loyalty Program</p>
+            <p class="flex-para">Site Map</p>
+            <p class="flex-para">Terms of Use</p>
+            <p class="flex-para">Contact Us</p>
+   
+        </div>
+        <div class="flex">
+            <p class="flex-para">Accessibilty</p>
+            <p class="flex-para">Languages</p>
+            <p class="flex-para">Privacy</p>
+            <p class="flex-para">Site Map</p>
+            <p class="flex-para">Careers</p>
+            <p class="flex-para">Blog</p>
+        </div>
+        <div class="flex">
+            <p class="flex-para">Collaborations</p>
+            <p class="flex-para">Comicon</p>
+            <p class="flex-para">Highlights</p>
+            <p class="flex-para">Wall of Fame</p>
+            <p class="flex-para">Global Icon</p>
+        </div>
+        <div class="flex">
+            <p class="flex-para">Join our newsletter</p>
+            <button id="flex-btn">SUBSCRIBE</button>
+            <p id="flex-conn" class="flex-para">Connect with us:</p>
+            <div id="flex-icons" class="mini-flex">
+                <div class="minis"><img src="images/instagram.png" alt=""></div>
+                <div class="minis"><img src="images/youtube.png" alt=""></div>
+                <div class="minis"><img src="images/fb.png" alt=""></div>
+                <div class="minis"><img src="images/twitter.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="hr2"><hr/></div>
+</div>
+
+
+
+<script src="index.js"></script>
+</body>
+</html> 

@@ -1,0 +1,469 @@
+*{
+    padding:0;
+    margin:0;
+    /* border:1px solid salmon; */
+}
+
+.nav{
+    /* font-family:"Roboto", sans-serif; */
+    font-family: "Roboto Slab", serif;
+    /* padding:2px; */
+}
+
+#span-brand{
+    margin-left:-36px;
+    font-weight: 600; 
+    color:hsl(44, 88%, 52%);
+}
+
+.nav-item{
+    /* padding:1px; */
+    font-size:16px;
+}
+
+.form-inline #btn-book{
+    margin-left:28px;
+    background-color:rgb(224, 168, 13);
+    color:white;
+    font-size: 14px;
+}
+
+#navbarSupportedContent{
+    margin:9px;
+    font-size: 15px;
+    font-weight: 400;
+    /* text-transform: uppercase; */
+}
+
+/* .main-bod{
+     /* border:1px solid palevioletred;  */
+    /* height:440px; 
+}  */
+
+.main-foot{
+    /* border:2px solid salmon; */
+    height:127px;
+}
+.c-item{
+    height:440px;
+
+}
+
+.c-img1{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+
+.main-foot{
+    display: flex;
+    align-items: center;
+    height: 124px; 
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(72, 28, 117);
+    color:white;
+  
+}
+.divs{
+    flex:0 0 200px;
+    /* border:1px solid rgb(214, 27, 90); */
+    overflow:hidden;
+    margin:20px; 
+}
+.divs p{
+    font-size:14px;
+}
+.divs img{
+    margin:4px;
+    padding:4px;
+}
+.divs-main{
+    flex:0 0 200px;
+    /* border:1px solid rgb(214, 27, 90); */
+    overflow:hidden;
+    margin:20px; 
+}
+.divs-main p{
+    font-size:14px;
+}
+/* .divs-main img{
+
+    padding:1px;
+} */
+/* .carousel-inner{
+    /* position:relative; 
+} */
+
+#search{
+    height:60px;
+    width:600px;
+    background-color: hsla(0, 0%, 0%, 0.493);
+    position:absolute;
+    margin-left:380px;
+    /* margin-right:40px; */
+    /* margin-bottom:500px; */
+    margin-top:-70px;
+    transform: translateY(-60%);
+    z-index: 999;
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+    padding:14px;
+    color:hsla(180, 20%, 97%, 0.89);
+}
+
+#search-p{
+    display: inline;
+    margin-right:26px;
+}
+#search-icon{
+    margin-right:10px;
+}
+
+/*********************************CSS FOR SECOND PAGE BEGINS HERE***************************************/
+
+.containers{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:70vh;
+}
+
+.card_h2{
+    margin-top:50px;
+    text-align: center;
+}
+.containers .cards-items{
+    display:grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc(100%/4 - 9px);
+    overflow:hidden;
+    list-style: none;
+    margin:10px;
+    overflow: hidden;
+    gap:12px;
+}
+
+.cards-items .card{
+    list-style: none;
+    display:flex;
+    height:350px;
+    width:100%;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    /* border:none; */
+    overflow:hidden;
+    scroll-behavior: smooth;
+    box-shadow:2px 6px 4px rgba(0, 0, 0, 0.548); 
+}
+
+.card .img img{
+    height:300px;
+    width:100%;
+    object-fit: cover;  
+    box-shadow:2x 6px 4px rgba(0, 0, 0, 0.185);
+}
+/* .shadow{
+    width:300px;
+    height:50vh;
+    margin-top: 10px;   
+} */
+
+.card_span{
+    font-size:18px;
+    font-weight: 500;
+    padding-left:40px;
+}
+
+.card_btns{
+    /* margin-left:28px; */
+    background-color:rgb(224, 168, 13);
+    color:white;
+    font-size: 18px;
+    border:none;
+    width:35%;
+    display:inline;
+    transform: translateX(20%);
+}
+
+.containers .fa-solid i{
+    width:40px;
+    height:40px;
+    cursor:pointer;
+}
+
+
+/***********************************CSS FOR THIRD PAGE BEGINS HERE***************************************/
+
+.tab-container{
+    min-height:100vh;
+    /* border:1px solid slateblue; */
+    margin:20px;
+}
+.tab-h6{
+    text-align:center;
+    margin:20px;
+    font-size:14px;
+    color:#686868;
+}
+h4.grid-h4{
+    margin:10px;
+}
+.grid-container{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:40px;
+    display:grid;
+    height:100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    text-align:center;
+}
+.item{
+    height:246px;
+    width:100%;
+    /* border:1px solid orangered; */
+    background-color: #F5F5F5;
+}
+.grid-image{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+.grid-pg{
+font-size:13px;
+padding:10px;
+text-align: left;
+display: block;
+
+}
+.grid-span{
+    color:rgb(224, 168, 13);
+}
+.fa-arrow-right{
+    color:rgb(224, 168, 13);
+    padding:10px
+}
+
+
+/***********************************CSS FOR FORTH PAGE BEGINS HERE***************************************/
+
+.parent{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    /* border:2px solid red; */
+}
+
+.oap{
+    margin-top:-8px;
+    margin-bottom:36px;
+    text-align: center;
+}
+
+.divs-wrapper{
+    display: flex;
+    /* align-items: center; /* Vertically center content */
+    /* justify-content: center; Horizontally center content */ 
+    height: 80vh; /* 70% of the viewport height */
+    /* border:1px solid indigo; */
+    margin:20px;
+    width:100%;
+    background-color: #FAFAFA;
+}
+.divy{
+/* display:flex; */
+/* flex-direction: column; */
+justify-content:flex-start;
+align-items: flex-start;
+height:100%;
+width:26%;
+/* border:1px solid orange; */
+}
+
+.grid-container2{
+    position: relative;
+}
+
+.grid-container2::before {
+content: '';
+position: absolute;
+top: 11%;
+bottom: 18%; 
+left: 13%; /* Adjust the position of the line */
+width: 1.5px; /* Adjust the width of the line */
+background-color: #c9c7c7; /* Adjust the color of the line */
+background: linear-gradient(to bottom, rgba(201, 199, 199, 1) 65%, rgb(252, 250, 250)); /* Adjust the colors and opacity */
+
+}
+
+.items{
+/* border:1px solid yellow; */
+height:45px;
+width:80%;
+/* margin-top:30px;*/
+padding-left:68px;
+padding-top:30px;
+margin-top:20px;
+position:relative; 
+
+}
+
+span.spany{
+color: #686868;
+font-size:17px;
+
+/* border:1px solid yellowgreen; */
+}
+
+#span1{
+color:rgb(250, 196, 46);
+}
+
+.fa-circle-dot{
+position:absolute;
+margin-top:40px;
+margin-left:37px;
+}
+
+
+
+.grid-container3{
+ /* border:1px solid orchid;  */
+height:100%;
+width:26%;
+background-color: rgb(235, 235, 235)
+}
+
+.items2{
+ /* border:1px solid salmon;  */
+height:45px;
+width:100%;
+margin-top:35px;
+}
+
+.spany2{
+margin-left:30px;
+color: #686868;
+font-size:18px;
+}
+
+#span-btn{
+background-color: rgb(243, 189, 41);
+width:90px;
+height:30px;
+border:none;
+color:white;
+font-size:14px;
+margin-left:30px;
+margin-top:20px;
+}
+
+#span2{
+font-weight: 800;
+/* color: rgb(224, 168, 13); */
+color: rgb(243, 189, 41);
+}
+
+#divs_id{
+    /* border:1px solid orangered; */
+    width:48%;
+
+}
+
+#divs_im{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+} 
+
+
+/***************************************CSS FOR FOOTER BEGINS HERE***************************************/
+
+.footer{
+    /* border:1px solid blueviolet; */
+    background-color:#EFEEEE;
+    height:400px;
+    width:100%;
+    margin-top:5%;
+    overflow:auto;
+
+}
+
+.main-footer{
+    /* border:1px solid red; */
+    height:50%;
+    width:90%;
+    margin-left:10%;
+    /* margin-right:%; */
+    margin-top:6%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+
+.hr1{
+    padding:0;
+    margin-top: 3%;
+    margin-left:10%;
+    margin-right:10%;
+    /* border: 2px solid purple; */
+    /* background-color: blue; */
+    /* background-color:rgb(209, 207, 207); */
+}
+
+.hr2{
+    margin-top:3%;
+    margin-left:10%;
+    margin-right:10%;
+    background-color:rgb(209, 207, 207);
+}
+.flex{
+height:100%;
+width:25%;
+margin-top:-20px;
+/* border:1px solid indianred; */
+}
+
+.flex-para{
+    margin:0;
+    padding:0;
+    margin:3%;
+    font-size:13px;
+    /* margin-top:1%; */
+}
+
+#flex-btn{
+    background-color:  rgb(243, 189, 41);
+    color:white;
+    width:48%;
+    height:15%;
+    border:none;
+    margin-left:2%;
+    border-radius: 6px;
+}
+
+.mini-flex{
+    display:flex;
+    height:20%;
+    margin-left:2%;
+}
+
+.minis{
+    width:15%;
+    height:100%;
+}
+
+#flex-icons{
+    margin-top:4%;
+}
+
+#flex-conn{
+    margin-top:6%;
+}
+
